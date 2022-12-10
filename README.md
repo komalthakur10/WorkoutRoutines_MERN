@@ -5,11 +5,11 @@ Functions:
     1. JWT Authentication
     2. Add Workouts Form
     3. View and Delete Workouts
-    
-    ![image](https://user-images.githubusercontent.com/95537573/206859372-f6ee1937-11ed-4d1c-bba3-b9ddfabfe15e.png)
 
-    ![image](https://user-images.githubusercontent.com/95537573/206859376-88e45d94-f201-4762-b0cd-4989c311e883.png)
+![1](https://user-images.githubusercontent.com/95537573/206859553-17c0e070-1e22-4454-97ff-6fa0d3de778a.png)
 
-    ![image](https://user-images.githubusercontent.com/95537573/206859388-a40e72ae-8593-4d95-a735-01eb236e8506.png)
+![2](https://user-images.githubusercontent.com/95537573/206859561-213c5ea5-c1fa-41c3-947c-c6b5ad27f199.png)
 
-    ![image](https://user-images.githubusercontent.com/95537573/206859395-ebebf3db-ed26-4dde-93b3-ec8defb0ad78.png)
+![3](https://user-images.githubusercontent.com/95537573/206859565-8a9daa60-c9dd-432d-8d9c-24bda4954c47.png)
+
+![4](https://user-images.githubusercontent.com/95537573/206859571-4dd54ce3-6122-4525-ba0a-7ec64e79c5f6.png)
