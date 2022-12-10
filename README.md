@@ -1,6 +1,6 @@
 # WorkoutRoutines_MERN
 
-Functions:
+Things Implemented :
   
     1. JWT Authentication
     2. Add Workouts Form
