@@ -1,6 +1,9 @@
 require('dotenv').config() // For .env package/file to hide sensitive data from code
+// Importing required libraries
 const express = require('express')
+const mongoose = require('mongoose')
 const workoutRoutes = require('./Routes/workout')
+const userRoutes = require('./Routes/user')
 
 // Express App
 const app = express()
@@ -14,9 +17,21 @@ app.use((req, res, next) => {
 })
 
 // Routes
-app.use('/api/workout', workoutRoutes)
+app.use('/api/workouts', workoutRoutes)
+app.use('/api/user', userRoutes)
 
-// Listen To Requests
-app.listen(process.env.PORT, () => {
-    console.log("Listening on port 5000.")
-})
+// Connect to DB 
+mongoose.connect(process.env.MONGO_URI)
+    .then(() => {
+
+        // Listen To Requests
+        app.listen(process.env.PORT, () => {
+            console.log("*** Backend DB Server Started ***")
+            console.log("Connected to DB and Listening on port", process.env.PORT)
+        })
+
+    })
+    .catch((error) => {
+        console.log(error)
+    })
+
